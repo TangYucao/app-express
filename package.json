@@ -1,0 +1,22 @@
+{
+  "homepage": "http://gitname.github.io/app-express",
+  "name": "app-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "joi": "^14.3.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
